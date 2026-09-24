@@ -44,7 +44,7 @@
         navItem('Families','/families/',isActive('/families/'),[
           ['Family Dashboard','/families/'],['Calendar','https://calendar.google.com/calendar/embed?ctz=America/New_York&src=fyi@unityschool.com'],['Lunch','https://unityschool.nutrislice.com/menu/unity-school/lunch/'],['Resources','/families/#resources']
         ])+
-        '<div class="nav-item"><a class="nav-link" href="/support-unity/">Support Unity</a></div>'+
+        '<div class="nav-item"><a class="nav-link '+(isActive('/support-unity/')?'active':'')+'" href="/support-unity/">Support Unity</a></div>'+
       '</nav>'+
       '<div class="header-actions"><button class="search-button" type="button" aria-label="Search Unity School" data-open-search><i data-lucide="search"></i></button><a class="btn btn-gold" href="/contact/#tour">Schedule a Tour</a></div>'+
     '</div></header>'+
